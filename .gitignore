@@ -1,0 +1,30 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm configuration
+.idea/
+
+# YOLO training outputs
+runs/
+events/
+yolo_dataset/
+PennFudanPed/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Sensitive settings
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db

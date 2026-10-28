@@ -1,0 +1,5 @@
+train: yolo_dataset/images
+val: yolo_dataset/images  # Use same images for now (PennFudan is small)
+
+nc: 1
+names: ['person']
